@@ -1,4 +1,9 @@
 # Language Server Protocol
-It used to be that if developers wanted things like auto complete, code lens and diagnostics (or squiggles!) each and every Editor or IDE had to have support for your language.  If your editor didn't support the language all you really had a text editor.  Languages have gotten smarter of the years giving APIs that offer up all sorts of useful information but it was always the Editors job to do this for each and every language it wanted to support.  This is tedious and expensive so editors either added more man power or specialized around similar languages.  (ie Visual Studio, Eclipse, IntelliJ, etc).  What if there was a standard way to interact with a new language, a way that allowed any editor to more easily support a language and opens the door for developers to pick their favorite editor. This is what makes the language server protocol so important!  This defines a set of standard methods and interfaces so any editor can talk to any language server.  Now as a developer writing a language server you'd like to write your language server in a language your wanting to represent.
+Ever heard of OmniSharp or the Language Server Protocol?
 
-This is where the csharp-language-server-protocol library comes in.  This is a library built by the community that adheres to the LSP specification written purely in C# and is used by OmniSharp, Powershell Tooling and the new Razor Tooling.  In this talk we're going to review the protocol, take a look at a few examples of how it works, and even write very own language (okay maybe not 🤣).
+OmniSharp powers the C# experience in VSCode. It also inspired the Language Server Protocol that is used to make VSCode such a great editor for your language of choice.
+
+When it works you never notice it's there, and you can continue making GREAT applications with .NET 5.
+
+Today you're going to learn about how OmniSharp and the Language Server Protocol are helping build better experiences for Visual Studio and VSCode!
+
