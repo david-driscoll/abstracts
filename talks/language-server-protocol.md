@@ -1,4 +1,4 @@
-# Language Server Protocol
+# Language Server Protocol and .NET 5
 Ever heard of OmniSharp or the Language Server Protocol?
 
 OmniSharp powers the C# experience in VSCode. It also inspired the Language Server Protocol that is used to make VSCode such a great editor for your language of choice.
